@@ -1,4 +1,4 @@
-/* --------- starf of global styles --------- */
+/* --------- starf of global styles DODANE--------- */
 :root {
   --brand-color: #ffffff;
   --active-color: #2196f3;
@@ -66,14 +66,14 @@ header {
 }
 /* --------- end of global styles --------- */
 
-/* start of header */
+/* start of header DODANE*/
 .header {
   display: flex;
   align-items: center;
 }
 /* end of header */
 
-/* start logo */
+/* start logo DODANE*/
 .logo {
   color: var(--active-color);
   font-family: 'Raleway', sans-serif;
@@ -100,7 +100,7 @@ header {
 }
 /* start logo */
 
-/* start nav */
+/* start nav DODANE */
 .nav {
   display: flex;
   padding: 0;
@@ -152,7 +152,7 @@ header {
 }
 /* end nav */
 
-/* start contacts */
+/* start contacts DODANE */
 .contacts {
   display: flex;
   padding: 0;
@@ -195,7 +195,7 @@ header {
 
 /* ----------------- start of main studio ----------------- */
 
-/* start of order */
+/* start of order DODANE */
 
 .order {
   background-color: var(--main-background-color);
@@ -223,7 +223,7 @@ header {
   width: 696px;
 }
 /* end of order */
-/* start of button */
+/* start of button DODANE*/
 .button {
   width: 200px;
   height: 50px;
@@ -258,7 +258,7 @@ header {
 }
 /* end of button */
 
-/* start of descriptions */
+/* start of descriptions DODANE */
 .descriptions {
   list-style-type: none;
   display: flex;
@@ -295,7 +295,7 @@ header {
 }
 /* end of descriptions */
 
-/* start of services */
+/* start of services DODANE */
 .section__services {
   padding-top: 0;
 }
@@ -325,7 +325,7 @@ header {
 }
 /* end of services */
 
-/* start of team */
+/* start of team DODANE */
 .team {
   background: var(--subsection-background-color);
   height: 708px;
@@ -379,7 +379,7 @@ header {
 }
 /* end of team */
 
-/* start of socialmedia */
+/* start of socialmedia DODANE */
 
 .socialmedia__item {
   background-color: var(--brand-color);
@@ -412,7 +412,7 @@ header {
 
 /* end of socialmedia */
 
-/* start of clients */
+/* start of clients DODANE */
 
 .clients {
   height: 372px;
@@ -446,7 +446,7 @@ header {
 
 /* -------------- start of portfolio -------------- */
 
-/* start of menu */
+/* start of menu DODANE */
 .menu {
   display: flex;
   align-items: center;
@@ -478,7 +478,7 @@ header {
 }
 /* end of menu */
 
-/* start of portfolio */
+/* start of portfolio DODANE */
 .portfolio {
   list-style-type: none;
   display: flex;
@@ -536,7 +536,7 @@ header {
   z-index: 0;
 }
 /* end of portfolio */
-/* start of overlay */
+/* start of overlay DODANE */
 .overlay {
   position: absolute;
   top: 0;
@@ -563,7 +563,7 @@ header {
 
 /* ----------------- end of portfolio ---------------- */
 
-/* ------------------ start of footer ---------------- */
+/* ------------------ start of footer DODANE---------------- */
 
 .footer {
   background-color: var(--main-background-color);
@@ -609,7 +609,7 @@ header {
   margin-right: auto;
 }
 
-/* start of newslettter */
+/* start of newslettter DODANE */
 .newsletter {
   display: flex;
   flex-direction: column;
@@ -636,7 +636,7 @@ header {
 
 /* ------------------ end of footer ---------------- */
 
-/* ------------------ start of modal --------------- */
+/* ------------------ start of modal DODANE--------------- */
 .backdrop {
   position: fixed;
   width: 100vw;
