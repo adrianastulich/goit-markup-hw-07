@@ -4,7 +4,8 @@
     padding: 0;
     margin: 0;
   }
-  .newsletter__input {
+  .newsletter{
+    &__input{
     width: 358px;
     height: 50px;
     background-color: var(--main-background-color);
@@ -14,9 +15,12 @@
     padding-left: 16px;
     color: var(--brand-color);
   }
-  .newsletter__input:focus-visible {
-    outline: 0;
+    &__form{
+    display: flex;}
   }
-  .newsletter__form {
-    display: flex;
-}
+  .newsletter__input {
+    &:focus-visible{
+      outline: 0;
+    }
+     }
+ 

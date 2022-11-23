@@ -18,21 +18,20 @@
     color: var(--text-color);
     text-decoration: none;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  .contacts__item:visited {
-    color: var(--text-color);
-    text-decoration: none;
-    fill: var(--text-color);
-  }
-  .contacts__item:hover,
-  .contacts__item:focus {
-    color: var(--active-color);
+    &:visited{
+      color: var(--text-color);
+      text-decoration: none;
+      fill: var(--text-color);
+    }
+    &:hover{color: var(--active-color);}
+    &:focus{color: var(--active-color);} 
   }
   .contacts__item--footer {
     color: var(--footer-contact-color);
     margin-bottom: 9px;
     font-weight: 400;
+    &:visited{
+      color: var(--footer-contact-color);
+    }
   }
-  .contacts__item--footer:visited {
-    color: var(--footer-contact-color);
-  }
+  

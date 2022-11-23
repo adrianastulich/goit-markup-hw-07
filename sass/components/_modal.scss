@@ -91,17 +91,19 @@
     color: var(--text-color);
     resize: none;
   }
-  .modal__input::placeholder {
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.01em;
-    color: rgba(117, 117, 117, 0.5);
-  }
-  .modal__input:focus {
-    outline: 0;
-  }
-  .modal__input:hover .modal__input:focus {
-    border: 0;
+  
+  .modal__input {
+    &:hover{
+    border: 0;}
+    &:focus{
+      border: 0;
+      outline: 0;}
+    &::placeholder{
+      font-size: 12px;
+      line-height: 14px;
+      letter-spacing: 0.01em;
+      color: rgba(117, 117, 117, 0.5);
+      }
   }
   .modal__links {
     text-decoration: underline;
@@ -136,7 +138,8 @@
     left: -19.5px;
     top: 1px;
   }
-  .checkbox__checkmark::after {
+  .checkbox__checkmark {
+    &::after{
     display: none;
     content: '';
     width: 15px;
@@ -145,7 +148,7 @@
     border-radius: 3px;
     position: absolute;
     left: -0.75px;
-    top: -0.85px;
+    top: -0.85px;}
   }
   .modal__checkbox .checkbox__input:checked ~ .checkbox__checkmark:after {
     display: block;
